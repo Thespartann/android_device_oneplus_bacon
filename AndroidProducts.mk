@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_bacon.mk
+    $(LOCAL_DIR)/potato_bacon.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_bacon-user \
-    xtended_bacon-userdebug \
-    xtended_bacon-eng
+    potato_bacon-user \
+    potato_bacon-userdebug \
+    potato_bacon-eng

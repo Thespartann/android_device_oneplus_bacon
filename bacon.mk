@@ -79,6 +79,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-service \
     libbt-vendor
 
+# Board
+PRODUCT_BOARD_PLATFORM := msm8974
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
@@ -319,6 +323,3 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/oneplus/bacon/bacon-vendor.mk)
-
-# Inherit our OneplusShit
-$(call inherit-product, device/oneplus/OneplusShit/opshit.mk)
